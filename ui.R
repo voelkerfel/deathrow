@@ -30,7 +30,9 @@ shinyUI(fluidPage(
       p("For more information on the data itself please visit the ", 
         a("Texas Department of Criminal Justice", 
           href="http://www.tdcj.state.tx.us/death_row/dr_executed_offenders.html"), 
-        "from which the data was scraped followed by further processing and text mining.")
+        "from which the data was scraped followed by further processing and text mining.",
+        "The source code of this application is available on my ",
+        a("Github", href="https://github.com/voelkerfel/deathrow"), " page.")
     )
   )
 ))
